@@ -11,7 +11,7 @@ This app just connects to localstacks dynamodb and allows you to add stuff/get i
 
 4) Download localstack and run the localstack docker image (https://github.com/localstack/localstack) Running the docker image you are on a mac 'TMPDIR=/private$TMPDIR docker-compose up'
 
-5)Run to add task table to the DB
+5) Run to add task table to the DB
 
 aws --endpoint-url=http://localhost:4569 dynamodb create-table --table-name task --attribute-definitions AttributeName=Id,AttributeType=N --key-schema AttributeName=Id,KeyType=HASH --provisioned-throughput ReadCapacityUnits=5,WriteCapacityUnits=5
 
