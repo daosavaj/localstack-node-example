@@ -1,6 +1,8 @@
 # localstack-node-example
 Here is an example of using lambda's with node, aws cli, aws sam cli, and localstack
 
+This app just connects to localstacks dynamodb and allows you to add stuff to it and get information.
+
 1) Install AWS CLI  (If you have homebrew you can just do 'brew install awscli')
 
 2) Install AWS-SAM-CLI (https://aws.amazon.com/serverless/sam/)
@@ -11,4 +13,4 @@ Here is an example of using lambda's with node, aws cli, aws sam cli, and locals
 
 5) Make sure to run npm install in task directory
 
-6) Run 'sam local start-api --docker-network localstack_default' get the lambda running on the same network
+6) Run 'sam local start-api --docker-network localstack_default' in directory with template.yaml get the lambda running on the same network
