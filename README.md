@@ -1,7 +1,7 @@
 # localstack-node-example
 Here is an example of using lambda's with node, aws cli, aws sam cli, and localstack
 
-This app just connects to localstacks dynamodb and allows you to add stuff to it and get information.
+This app just connects to localstacks dynamodb and allows you to add stuff/get information using rest calls
 
 1) Install AWS CLI  (If you have homebrew you can just do 'brew install awscli')
 
